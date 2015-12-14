@@ -1,0 +1,46 @@
+<div class="panel panel-info" style="margin-top: 20px;">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            <a ui-sref="user({userId: user.id})" ng-bind="user.username"></a>
+        </h3>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-3 col-lg-3 " align="center">
+                <avatar avatar-url="user.avatarUrl"></avatar>
+            </div>
+
+            <div class=" col-md-9 col-lg-9 ">
+                <table class="table table-user-information">
+                    <tbody>
+                        <tr>
+                            <td>Имя</td>
+                            <td ng-bind="user.name"></td>
+                        </tr>
+                        <tr>
+                            <td>Телефон</td>
+                            <td ng-bind="user.phone"></td>
+                        </tr>
+                        <tr>
+                            <td>Website</td>
+                            <td><a ng-href="{{user.website}}" target="_blank" ng-bind="user.website"></a></td>
+                        </tr>
+                        <tr>
+                            <td>Адрес</td>
+                            <td ng-bind="user.fullAddress"></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td><a ng-href="mailto:{{user.email}}" ng-bind="user.email"></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="panel-footer">
+        <div class="text-right">
+            <a ui-sref="userEdit({userId: user.id})">&#9997; Edit</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+{
+  "esnext": true,
+  "varstmt": true,
+  "bitwise": true,
+  "curly": true,
+  "eqeqeq": true,
+  "latedef": false,
+  "forin": true,
+  "newcap": true,
+  "noarg": true,
+  "noempty": true,
+  "quotmark": "single",
+  "undef": true,
+  "unused": true,
+  "validthis": true,
+  "jasmine": true,
+  "eqnull": false,
+  "loopfunc": false,
+  "multistr": true,
+  "globals": {
+    "window": true,
+    "angular": true,
+    "CustomEvent": true,
+    "document": true,
+    "ui": true,
+    "inject": false,
+    "module": false
+  }
+}
