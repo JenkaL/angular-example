@@ -2,7 +2,7 @@
 Angularjs example project 
 
 # Демо
-http://angular-example.ucoz.net/index.html#/login
+http://angular-example.ucoz.net/index.html
 
 # авторизация 
 * email - xz@xz.ru
