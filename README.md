@@ -1,6 +1,9 @@
 # angular-example
 Angularjs example project 
 
+# Демо
+http://angular-example.ucoz.net/index.html#/login
+
 # авторизация 
 * email - xz@xz.ru
 * password - 123
